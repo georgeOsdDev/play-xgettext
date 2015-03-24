@@ -8,14 +8,6 @@ where `play.api.i18n.Messages` is used in your PlayFramework project.
 
 ## Usage
 
-Clone project and publish to local(Sorry not published to sonatype yet)
-
-```
-git clone https://github.com/georgeOsdDev/play-xgettext.git
-cd play-xgettext
-sbt publish-local
-```
-
 Add to application's build.sbt
 
 ```

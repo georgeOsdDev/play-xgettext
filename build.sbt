@@ -2,7 +2,7 @@ organization := "com.github.georgeosddev"
 
 name := "play-xgettext"
 
-version := "0.1"
+version := "0.2-SNAPSHOT"
 
 // When doing publish-signed, change the version below and those line accordingly.
 scalaVersion := "2.11.6"
