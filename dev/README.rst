@@ -30,4 +30,4 @@ To delete the local publish:
 
 ::
 
-  $ find ~/.ivy2 -name *xgettext* -delete
+  $ find ~/.ivy2 -name *play-xgettext* -delete

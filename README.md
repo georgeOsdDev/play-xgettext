@@ -21,7 +21,7 @@ Add to application's build.sbt
 ```
 autoCompilerPlugins := true
 
-addCompilerPlugin("tv.cntt" %% "play-xgettext" % "1.3")
+addCompilerPlugin("com.github.georgeosddev" %% "play-xgettext" % "0.1")
 
 # If you don't need comment about scala code line
 # scalacOptions += "-P:play-xgettext:hideLines"
@@ -30,15 +30,15 @@ addCompilerPlugin("tv.cntt" %% "play-xgettext" % "1.3")
 Create empty "messages.default" to project root
 
 ```
-  cd Your_PlayFramework_Project_Root
-  rm -rf ./messages.default
-  touch messages.default
+cd Your_PlayFramework_Project_Root
+rm -rf ./messages.default
+touch messages.default
 ```
 
 Compile project
 
 ```
-  activater clean compile
+activater clean compile
 ```
 
 All keys used with ``play.api.i18n.Messages`` in your project will be extracted into ``messages.default``.

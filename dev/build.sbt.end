@@ -2,6 +2,8 @@
 // Publish to Sonatype -------------------------------------------------------
 // https://github.com/sbt/sbt.github.com/blob/gen-master/src/jekyll/using_sonatype.md
 
+useGpg := true
+
 publishTo <<= (version) { version: String =>
   val nexus = "https://oss.sonatype.org/"
   if (version.trim.endsWith("SNAPSHOT")) Some("snapshots" at nexus + "content/repositories/snapshots")
@@ -15,23 +17,23 @@ publishArtifact in Test := false
 pomIncludeRepository := { _ => false }
 
 pomExtra := (
-  <url>https://github.com/xitrum-framework/scala-xgettext</url>
+  <url>https://github.com/georgeosddev/play-xgettext</url>
   <licenses>
     <license>
       <name>MIT</name>
-      <url>https://github.com/xitrum-framework/scala-xgettext/blob/master/MIT-LICENSE</url>
+      <url>https://github.com/georgeosddev/play-xgettext/blob/master/MIT-LICENSE</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
   <scm>
-    <url>git@github.com:xitrum-framework/scala-xgettext.git</url>
-    <connection>scm:git:git@github.com:xitrum-framework/scala-xgettext.git</connection>
+    <url>git@github.com:georgeosddev/play-xgettext.git</url>
+    <connection>scm:git:git@github.com:georgeosddev/play-xgettext.git</connection>
   </scm>
   <developers>
     <developer>
-      <id>ngocdaothanh</id>
-      <name>Ngoc Dao</name>
-      <url>https://github.com/ngocdaothanh</url>
+      <id>georgeosddev</id>
+      <name>Takeharu Oshida</name>
+      <url>https://github.com/georgeosddev</url>
     </developer>
   </developers>
 )

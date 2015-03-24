@@ -1,4 +1,4 @@
-organization := "tv.cntt"
+organization := "com.github.georgeosddev"
 
 name := "play-xgettext"
 
