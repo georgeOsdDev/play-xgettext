@@ -1,4 +1,4 @@
-# Message extractor for PlayFramework
+# i18n messages extractor for PlayFramework
 
 This project is forked from xitrum-framework/scala-xgettext.
 
@@ -19,7 +19,7 @@ addCompilerPlugin("com.github.georgeosddev" %% "play-xgettext" % "0.1")
 # scalacOptions += "-P:play-xgettext:hideLines"
 ```
 
-Create empty "messages.default" to project root
+Create empty ``messages.default`` to project root
 
 ```
 cd Your_PlayFramework_Project_Root
@@ -30,7 +30,7 @@ touch messages.default
 Compile project
 
 ```
-activater clean compile
+activator clean compile
 ```
 
 All keys used with ``play.api.i18n.Messages`` in your project will be extracted into ``messages.default``.
