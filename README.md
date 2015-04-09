@@ -5,6 +5,7 @@ This project is forked from xitrum-framework/scala-xgettext.
 This plugin extract Internationalized message keys from scala source codes and twirl templates
 where `play.api.i18n.Messages` is used in your PlayFramework project.
 
+[![Demo](http://img.youtube.com/vi/VpENniKvc9o/0.jpg)](https://www.youtube.com/watch?v=VpENniKvc9o)
 
 ## Usage
 
