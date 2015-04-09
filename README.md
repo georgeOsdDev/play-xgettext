@@ -15,8 +15,8 @@ autoCompilerPlugins := true
 
 addCompilerPlugin("com.github.georgeosddev" %% "play-xgettext" % "0.1")
 
-# If you don't need comment about scala code line
-# scalacOptions += "-P:play-xgettext:hideLines"
+// If you don't need comment about scala code line
+// scalacOptions += "-P:play-xgettext:hideLines"
 ```
 
 Create empty ``messages.default`` to project root
